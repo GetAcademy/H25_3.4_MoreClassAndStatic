@@ -2,7 +2,6 @@
 {
     internal class Clicker
     {
-        //public static string Text;
         public int Number;
         public ConsoleColor Color;
         public ConsoleKey Key;
