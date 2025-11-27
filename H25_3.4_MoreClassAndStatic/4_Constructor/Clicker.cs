@@ -1,4 +1,4 @@
-﻿namespace H25_3._4_MoreClassAndStatic._4_Constructor
+﻿namespace H25_3._4_MoreClassAndStatic._2_ClassWithMethod
 {
     internal class Clicker
     {
@@ -6,12 +6,6 @@
         public int Number;
         public ConsoleColor Color;
         public ConsoleKey Key;
-
-        public Clicker(ConsoleColor color, ConsoleKey key)
-        {
-            Color = color;
-            Key = key;
-        }
 
         public void Write()
         {
@@ -29,6 +23,11 @@
             {
                 Number++;
             }
+        }
+
+
+        public static void Terje()
+        {
         }
     }
 }
